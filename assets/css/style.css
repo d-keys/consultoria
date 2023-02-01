@@ -25,32 +25,29 @@ Link puro: https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb
 }
 
 #logo {
-	color: #FFFFFF;
+	color: #000000;
 	line-height: 70px;
 	text-align: left;
-	padding-left: 40px; font-size : 25px;
+	padding-left: 40px;
+	padding-top: 15px;
+	font-size : 25px;
 	font-weight: bold;
-	text-shadow: #EEE 3px 3px 10px;
-	font-size: 25px;
+	text-shadow: 0 0 20px #eeeeee;
+	font-size: 40px;
 }
 
 #registro {
 	background-color: #000000a8;
 	right: 10%;
-	left: 70%; top : 80px; box-shadow : 0 0 20px #eeeeee;
-	position: absolute; padding : 30px;
+	left: 400px;
+	left: initial;
+	top: 140px;
+	box-shadow : 0 0 40px #eeeeee;
+	position: absolute;
+	padding : 30px;
 	color: #ffffff;
 	width: 350px;
-	left: initial;
 	padding: 30px;
-	box-shadow: 0 0 20px #eeeeee;
-	top: 80px;
-}
-
-#registro a {
-	font-size: 25px;
-	font-weight: bold;
-	margin-bottom: 35px;
 }
 
 #registro p {
@@ -74,7 +71,7 @@ Link puro: https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb
 #registro button {
 	width: 100%;
 	border: none;
-	background-color: #E67E22;
+	background-color: #C17736;
 	color: #FFF;
 	padding: .75rem;
 	font-size: 16px;
