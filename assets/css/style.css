@@ -26,12 +26,6 @@ background-image: url("https://images.unsplash.com/photo-1571624436279-b272aff75
 header .bg-gradient {
 	min-height: 300px;
 	width: 100%;
-	background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%,
-		rgba(0, 0, 0, 0) 100%);
-	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%,
-		rgba(0, 0, 0, 0) 100%);
-	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%,
-		rgba(0, 0, 0, 0) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000',
 		endColorstr='#00000000', GradientType=0);
 }
@@ -48,18 +42,15 @@ header .bg-gradient {
 
 #registro {
 	background-color: #000000a8;
-	height: 350px;
-	position: absolute;
-	bottom: 0;
-	right: 10vw;
+	height: 325px;
 	box-shadow: 0 0 2.1875rem rgba(140, 152, 164, .125);
 	padding: 30px;
-	margin: 40px;
-	color: #333;
+	color: #ffffff;
+	position: static;
 }
 
 #registro p {
-	font-size: 1.5em;
+	font-size: 25px;
 	font-weight: bold;
 	margin-bottom: 35px;
 }
