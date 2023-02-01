@@ -10,43 +10,47 @@ body {
 
 header {
 	min-height: 500px;
-/* 
+	/* 
 Usado com permissão da licensa Unsplash: https://unsplash.com/license
 Criadores da imagem: https://unsplash.com/@socialcut
 Link original da imagem: https://unsplash.com/photos/1RT4txDDAbM
 Link puro: https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80
 */
-background-image: url("https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80");
+	background-image:
+		url("https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	position: relative;
 }
 
-header .bg-gradient {
-	min-height: 300px;
-	width: 100%;
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000',
-		endColorstr='#00000000', GradientType=0);
-}
-
 #logo {
 	color: #FFFFFF;
 	line-height: 70px;
 	text-align: left;
-	padding-left: 40px;
-	font-size: 25px;
+	padding-left: 40px; font-size : 25px;
 	font-weight: bold;
 	text-shadow: #EEE 3px 3px 10px;
+	font-size: 25px;
 }
 
 #registro {
 	background-color: #000000a8;
-	height: 325px;
-	box-shadow: 0 0 2.1875rem rgba(140, 152, 164, .125);
-	padding: 30px;
+	right: 10%;
+	left: 70%; top : 80px; box-shadow : 0 0 20px #eeeeee;
+	position: absolute; padding : 30px;
 	color: #ffffff;
-	position: static;
+	width: 350px;
+	left: initial;
+	padding: 30px;
+	box-shadow: 0 0 20px #eeeeee;
+	top: 80px;
+}
+
+#registro a {
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 35px;
 }
 
 #registro p {
@@ -73,7 +77,7 @@ header .bg-gradient {
 	background-color: #E67E22;
 	color: #FFF;
 	padding: .75rem;
-	font-size: 1.2em;
+	font-size: 16px;
 }
 
 .container {
@@ -84,18 +88,10 @@ header .bg-gradient {
 	padding-right: 15px;
 }
 
-header .header-border {
-	justify-content: space-between;
-}
-
 .title h1 {
 	font-size: 3em;
 	border-bottom: #CCC 1px solid;
 	padding-bottom: 1rem;
-}
-
-.home p {
-	text-align: justify;
 }
 
 footer {
@@ -110,10 +106,4 @@ footer p {
 
 footer .container {
 	display: flex;
-}
-
-#registro {
-	width: 350px;
-	max-width: initial;
-	left: initial;
 }
