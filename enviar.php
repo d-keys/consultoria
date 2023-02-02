@@ -1,10 +1,9 @@
 <?php
 if (isset($_POST['email'])) {
-    $email_to = "email";
-    $email_subject = "subject";
-    $first_name = $_POST['first_name']; // required
-    $email_from = $_POST['email']; // required
-    $password = $_POST['password'];
+    $email_para = "email";
+    $email_assunto = "Dantas";
+    $nome = $_POST['nome']; // required
+    $email_de = $_POST['email']; // required
 
     function clean_string($string)
     {
@@ -18,15 +17,13 @@ if (isset($_POST['email'])) {
         return str_replace($bad, "", $string);
     }
     $email_message = "Form details below.\n\n";
-    $email_message .= "Name: " . clean_string($first_name) . "\n";
-    $email_message .= "Email: " . clean_string($email_from) . "\n";
-    $email_message .= "password: " . clean_string($password) . "\n";
+    $email_message .= "Name: " . clean_string($nome) . "\n";
+    $email_message .= "Email: " . clean_string($email_de) . "\n";
 
     // email
-    $headers = 'From: ' . $email_from . "\r\n" . 'Reply-To: ' . $email_from . "\r\n" . 'X-Mailer: PHP/' . phpversion();
-    mail($email_to, $email_subject, $email_message, $headers);
+    $headers = 'From: ' . $email_de . "\r\n" . 'Reply-To: ' . $email_de . "\r\n" . 'X-Mailer: PHP/' . phpversion();
+    mail($email_para, $email_assunto, $email_message, $headers);
     ?>
-<!-- include your own success html here -->
 
 <div class="feedback">Obrigado por se registrar. Entraremos em contato o
 	mais cedo possível.</div>

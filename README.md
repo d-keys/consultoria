@@ -1,4 +1,3 @@
-# dantas.github.io
+# dantas
 
 Página Protótipo para visualização básica
-
