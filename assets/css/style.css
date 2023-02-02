@@ -41,7 +41,7 @@ Link puro: https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb
 	right: 10%;
 	left: 400px;
 	left: initial;
-	top: 140px;
+	top: 80px;
 	box-shadow : 0 0 40px rgb(36, 31, 49)sition: absolute;
 	padding : 30px;
 	color: #ffffff;
@@ -72,7 +72,7 @@ Link puro: https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb
 	border: none;
 	background-color: #C17736;
 	color: #FFF;
-	padrgb(255, 167, 87)75rem;
+	padding: 75rem;
 	font-size: 16px;
 }
 
