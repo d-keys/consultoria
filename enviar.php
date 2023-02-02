@@ -1,32 +1,30 @@
 <?php
-if (isset($_POST['email'])) {
-    $email_para = "email";
-    $email_assunto = "Dantas";
+if(isset($_POST['email'])) {
+    $email_para = "to@domain.com";
+    $email_assunto = "Assunto do email";
     $nome = $_POST['nome']; // required
     $email_de = $_POST['email']; // required
-
-    function clean_string($string)
-    {
-        $bad = array(
-            "content-type",
-            "bcc:",
-            "to:",
-            "cc:",
-            "href"
-        );
-        return str_replace($bad, "", $string);
+    $telefone = $_POST['telefone']; // not required
+    
+    function clean_string($string) {
+        $bad = array("content-type","bcc:","to:","cc:","href");
+        return str_replace($bad,"",$string);
     }
-    $email_message = "Form details below.\n\n";
-    $email_message .= "Name: " . clean_string($nome) . "\n";
-    $email_message .= "Email: " . clean_string($email_de) . "\n";
-
-    // email
-    $headers = 'From: ' . $email_de . "\r\n" . 'Reply-To: ' . $email_de . "\r\n" . 'X-Mailer: PHP/' . phpversion();
-    mail($email_para, $email_assunto, $email_message, $headers);
+    
+    $email_mensagem = "Detalhes do formulário abaixo.\n\n";
+    $email_mensagem .= "Nome: ".clean_string($nome)."\n";
+    $email_mensagem .= "Email: ".clean_string($email_de)."\n";
+    $email_mensagem .= "Ttelefone: ".clean_string($telefone)."\n";
+    
+    // create email headers
+    $headers = 'From: '.$email_de."\r\n".
+        'Reply-To: '.$email_de."\r\n" .
+        'X-Mailer: PHP/' . phpversion();
+    mail($email_para, $email_assunto, $email_mensagem, $headers);
     ?>
+  <!-- include your own success html here -->
 
-<div class="feedback">Obrigado por se registrar. Entraremos em contato o
-	mais cedo possível.</div>
-<?php
+  <div class="feedback">Agradecemos o seu contato. Assim que possível responderemos.</div>
+  <?php
 }
 ?>
