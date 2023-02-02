@@ -1,6 +1,6 @@
 <?php
 if(isset($_POST['email'])) {
-    $email_para = "diamigo@tutanota.com";
+    $email_para = "to@domain.com";
     $email_assunto = "Dantas Consultoria - Obrigado por se registrar!";
     $nome = $_POST['nome']; // required
     $email_de = $_POST['email']; // required
