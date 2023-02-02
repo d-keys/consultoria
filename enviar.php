@@ -14,11 +14,11 @@ if(isset($_POST['email'])) {
     $email_mensagem = "Detalhes do formulário abaixo.\n\n";
     $email_mensagem .= "Nome: ".clean_string($nome)."\n";
     $email_mensagem .= "Email: ".clean_string($email_de)."\n";
-    $email_mensagem .= "Ttelefone: ".clean_string($telefone)."\n";
+    $email_mensagem .= "Telefone: ".clean_string($telefone)."\n";
     
     // create email headers
-    $headers = 'From: '.$email_de."\r\n".
-        'Reply-To: '.$email_de."\r\n" .
+    $headers = 'De: '.$email_de."\r\n".
+        'Responder para: '.$email_de."\r\n" .
         'X-Mailer: PHP/' . phpversion();
     mail($email_para, $email_assunto, $email_mensagem, $headers);
     ?>
