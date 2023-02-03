@@ -32,18 +32,18 @@ Link puro: https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb
 	padding-top: 15px;
 	font-size : 25px;
 	font-weight: bold;
-	text-shadow: 0 0 20px rgb(238, 238, 238);
+	text-shadow: 0 0 20px #000000;
 	font-size: 40px;
 }
 
 #registro {
-	background-color: #000000;
-	position: absolute;
+	background-color: #000000a8;
 	right: 10%;
 	left: 400px;
 	left: initial;
 	top: 80px;
-	box-shadow : 0 0 40px rgb(36, 31, 49);
+	box-shadow : 0 0 40px #eeeeee;
+	position: absolute;
 	padding : 30px;
 	color: #ffffff;
 	width: 350px;
@@ -73,7 +73,7 @@ Link puro: https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb
 	border: none;
 	background-color: #C17736;
 	color: #FFF;
-	padding: 75rem;
+	padding: .75rem;
 	font-size: 16px;
 }
 
