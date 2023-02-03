@@ -36,7 +36,7 @@ Link puro: https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb
 	font-size: 40px;
 }
 
-#retornar {
+.retornar {
 	border-color: #222222;
 	background-color: #111111;
 	border-radius: 0px 5px 5px 5px;
