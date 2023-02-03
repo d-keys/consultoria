@@ -38,11 +38,12 @@ Link puro: https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb
 
 #registro {
 	background-color: rgb(0, 0, 0)1, 49);
+	position: absolute;
 	right: 10%;
 	left: 400px;
 	left: initial;
 	top: 80px;
-	box-shadow : 0 0 40px rgb(36, 31, 49)sition: absolute;
+	box-shadow : 0 0 40px rgb(36, 31, 49);
 	padding : 30px;
 	color: #ffffff;
 	width: 350px;
