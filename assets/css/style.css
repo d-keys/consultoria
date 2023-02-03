@@ -6,6 +6,8 @@
 body {
 	margin: 0;
 	padding: 0;
+	background-color: #111111;
+	color: #eeeeee;
 }
 
 header {
@@ -32,29 +34,27 @@ Link puro: https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb
 	padding-top: 15px;
 	font-size : 25px;
 	font-weight: bold;
-	text-shadow: 0 0 20px #000000;
+	text-shadow: 0 0 20px #ffffff;
 	font-size: 40px;
 }
 
-.retornar {
+#ret {
 	border-color: #222222;
 	background-color: #111111;
 	border-radius: 0px 5px 5px 5px;
-	top: 50%;
 	color: ghostwhite;
 	padding: 3px 20px;
-	text-align: center;
 	display: inline-block;
 	font-size: 16px;
 }
 
 #registro {
-	background-color: #000000a8;
+	background-color: #000000a0;
 	right: 10%;
 	left: 400px;
 	left: initial;
 	top: 80px;
-	box-shadow : 0 0 40px #eeeeee;
+	box-shadow : 0 0 40px #000000;
 	position: absolute;
 	padding : 30px;
 	color: #ffffff;
@@ -84,12 +84,13 @@ Link puro: https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb
 	width: 100%;
 	border: none;
 	background-color: #C17736;
-	color: #FFF;
+	color: #ffffff;
 	padding: 10px;
 	font-size: 16px;
 }
 
 .container {
+	color: #eeeeee;
 	max-width: 960px;
 	margin: auto;
 	width: 100%;
@@ -106,8 +107,7 @@ Link puro: https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb
 }
 
 footer {
-	background-color: #f5f5f5;
-	color: #6c757d;
+	color: #eeeeee;
 	font-size: .8em;
 }
 
@@ -116,5 +116,6 @@ footer p {
 }
 
 footer .container {
+	color: #eeeeee;
 	display: flex;
 }
