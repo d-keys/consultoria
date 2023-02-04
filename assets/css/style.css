@@ -89,16 +89,6 @@ Link puro: https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb
 	font-size: 16px;
 }
 
-.container {
-	color: #eeeeee;
-	max-width: 960px;
-	margin: auto;
-	width: 100%;
-	padding-left: 15px;
-	padding-right: 15px;
-	text-align: left;
-}
-
 .title h2 {
 	font-size: 3em;
 	border-bottom: #CCC 1px solid;
@@ -118,4 +108,15 @@ footer p {
 footer .container {
 	color: #eeeeee;
 	display: flex;
+}
+
+.container {
+	color: #eeeeee;
+	background-color: #C17736;
+	max-width: 960px;
+	margin: auto;
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: left;
 }
