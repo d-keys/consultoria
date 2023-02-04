@@ -110,7 +110,17 @@ footer .container {
 	display: flex;
 }
 
-.container {
+.container-feet1 {
+	color: #eeeeee;
+	max-width: 960px;
+	margin: auto;
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: left;
+}
+
+.container-feet2 {
 	color: #eeeeee;
 	background-color: #C17736;
 	max-width: 960px;
