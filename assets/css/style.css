@@ -34,9 +34,16 @@ Link puro: https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb
 	padding-top: 15px;
 	font-size : 25px;
 	font-weight: bold;
-	text-shadow: 0 0 20px #ffffff;
+	text-shadow: 3px 3px 5px #000000;
 	font-size: 40px;
 }
+
+/*.title h2 {
+	font-size: 3em;
+	border-bottom: #CCC 1px solid;
+	padding-bottom: 1rem;
+	text-align: left;
+}*/
 
 #ret {
 	border-color: #222222;
@@ -87,13 +94,6 @@ Link puro: https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb
 	color: #ffffff;
 	padding: 10px;
 	font-size: 16px;
-}
-
-.title h2 {
-	font-size: 3em;
-	border-bottom: #CCC 1px solid;
-	padding-bottom: 1rem;
-	text-align: left;
 }
 
 footer {
