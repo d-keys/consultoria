@@ -37,6 +37,15 @@ Link puro: https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb
 	font-size: 40px;
 }
 
+<<<<<<< HEAD
+=======
+/*.title h2 {
+	font-size: 3em;
+	border-bottom: #CCC 1px solid;
+	padding-bottom: 1rem;
+	text-align: left;
+}*/
+>>>>>>> branch 'main' of https://github.com/d-keys/consultoria
 #ret {
 	border-color: #222222;
 	background-color: #111111;
