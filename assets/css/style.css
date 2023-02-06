@@ -49,7 +49,7 @@ Link puro: https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb
 
 #registro {
     border-radius: 10px;
-    background-color: #000000a0;
+    background-color: #000000af;
     right: 10%;
     left: initial;
     top: 80px;
@@ -126,7 +126,7 @@ footer .container {
 
 .container-feet2 {
 	color: #eeeeee;
-	background-color: #C17736;
+	background-color: #383838;
 	max-width: 960px;
 	margin: auto;
 	width: 100%;
