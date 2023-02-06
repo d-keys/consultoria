@@ -1,6 +1,7 @@
 const nome = document.getElementById("nome")
 const email = document.getElementById("email")
 const tel = document.getElementById("tel")
+const enviar = document.getElementById("submit")
 form.addEventlistener("submit", (e) =>{
 
 	var isValid = true

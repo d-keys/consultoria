@@ -16,6 +16,35 @@
 	Link original da imagem: https://www.flaticon.com/free-icon/monitoring_3703300
 	Link puro: https://cdn-icons-png.flaticon.com/512/3703/3703300.png	-->
 <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3703/3703300.png">
+
+<!-- 
+
+Por conta da forma como HTMLs precisam ser baixados no navegador do usuário, um
+script precisa, de mesmo modo, ser baixado para ser executado pelo nevegador do usuário.
+
+Scripts são executados de cima para baixo, do primeiro ao último por padrão, logo,
+dependendo da posição da tag <script> no HTML, um script pode passar a ser baixado
+apenas no final do documento.
+
+As opções 'defer' e 'async' auxiliam o carregamento de uma página HTML baixando os
+scripts enquanto a página é carregada, acelerando o carregamento da página e 
+melhorando a performance.
+
+Ambas opções funcionam quase da mesma forma, a diferença é que a opção
+'defer' baixa e executa os scripts em ordem enquanto a página é carregada, ou seja,
+Script 1 >> Script 2 >> Script 3 ...
+
+No caso da opção 'async' ele baixa todos os scripts e os executa independente de
+ordem no documento HTML. Nesse caso, se o Script 2 for baixado antes do Script 1,
+o Script 2 será executado antes do Script 1.
+
+Como nessa página apenas há um script, não há necessidade de preocupação com a ordem,
+mas sim com a velocidade, por isso, nesse caso, utilizo a opção 'async'.
+
+<script src="assets/js/registrar.js" defer></script>
+-->
+
+<script src="assets/js/registrar.js" async></script>
 </head>
 
 <body>
@@ -29,16 +58,16 @@
 		<form id="registro" method="post" action="enviar.php">
 			<p>Cadastre-se:</p>
 			<div class="campo">
-				<input id="nome" type="text" name="nome" placeholder="Digite seu Nome..." required>
+				<input id="nome" type="text" name="nome" placeholder="Digite seu Nome...">
 			</div>
 			<div class="campo">
-				<input id="email" type="email" name="email" placeholder="Digite seu Email..." required>
+				<input id="email" type="email" name="email" placeholder="Digite seu Email...">
 			</div>
 			<div class="campo">
-				<input id="tel" type="tel" name="telefone" placeholder="Digite seu Telefone..." required>
+				<input id="tel" type="tel" name="telefone" placeholder="Digite seu Telefone...">
 			</div>
 			<div class="button">
-				<button type="submit">Registrar</button>
+				<button type="submit" id=submit>Registrar</button>
 			</div>
 		</form>
 	</header>
@@ -73,7 +102,5 @@
 			<p>Todos os direitos reservados</p>
 		</div>
 	</footer>
-
-<script src="assets/js/registrar.js"></script>
 </body>
 </html>
