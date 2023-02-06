@@ -81,10 +81,10 @@ Link puro: https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb
 }
 
 input:valid {
-	box-shadow: 0 0 2px 2px darkgreen;
+	box-shadow: 0 0 5px 1px darkgreen;
 }
 input:invalid {
-	box-shadow: 0 0 2px 2px darkred;
+	box-shadow: 0 0 5px 1px darkred;
 }
 
 placeholder {
