@@ -51,16 +51,16 @@ o Script 2 será executado antes do Script 1.
 <header>
 	<div id="logo">Consultoria</div>
 
-	<form id="registro" method="post" name="registrar" action="assets/php/enviar.php">
+	<form id="registro" method="post" name="registrar" action="registrar()" action="assets/php/enviar.php">
 	<p>Cadastre-se:</p>
 	<div class="campo">
-		<input id="nome" type="text" name="nome" minlength="4" maxlength="35" placeholder="Digite seu Nome...">
+		<input id="nome" type="text" name="nome" minlength="4" maxlength="35" placeholder="Digite seu Nome..." required>
 	</div>
 	<div class="campo">
-		<input id="email" type="email" name="email" minlength="10" maxlength="30" placeholder="Digite seu Email...">
+		<input id="email" type="email" name="email" minlength="10" maxlength="30" placeholder="Digite seu Email..." required>
 	</div>
 	<div class="campo">
-		<input id="tel" type="tel" name="telefone" minlength="9" maxlength="14" placeholder="Digite seu Telefone...">
+		<input id="tel" type="tel" name="tel" minlength="9" maxlength="14" placeholder="Digite seu Telefone..." required>
 	</div>
 	<div class="button">
 		<button type="submit">Registrar</button>
