@@ -81,7 +81,14 @@ Link puro: https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb
 }
 
 input:valid {
-	background-color: darkgreen;
+	box-shadow: 0 0 2px 2px darkgreen;
+}
+input:invalid {
+	box-shadow: 0 0 2px 2px darkred;
+}
+
+placeholder {
+	color: white;
 }
 
 #registro button {
