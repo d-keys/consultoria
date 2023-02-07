@@ -62,16 +62,26 @@ Link puro: https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb
 .animacao {
 	animation: animacao 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) forwards;
 }
-
 @keyframes animacao {
   0% {
     transform: translateX(500px);
   }
   100% {
-    transform: translateX(-100px);
+    transform: translateX(-40px);
   }
 }
 
+.animacao2 {
+	animation: animacao2 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) forwards;
+}
+@keyframes animacao2 {
+  0% {
+    transform: translateX(-500px);
+  }
+  100% {
+    transform: translateX(20px);
+  }
+}
 
 #registro button {
 	width: 100%;
