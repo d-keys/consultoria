@@ -89,7 +89,7 @@ body {
 }
 @keyframes animacao-formulario {
   0% {
-    transform: translateX(500px);
+    transform: translateX(5000px);
   }
   100% {
     transform: translateX(70px);
