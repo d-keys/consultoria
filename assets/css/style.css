@@ -77,11 +77,6 @@ Link puro: https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb
 	font-size: 16px;
 }
 
-p {
-	font-size: 25px;
-	font-weight: bold;
-}
-
 .campo {
 	width: 100%;
 	margin-bottom: 20px;
@@ -102,16 +97,6 @@ placeholder {
 	color: white;
 }
 
-footer {
-	color: #eeeeee;
-	font-size: .8em;
-}
-
-footer .container {
-	color: #eeeeee;
-	display: flex;
-}
-
 .container-feet1 {
 	color: #eeeeee;
 	max-width: 960px;
@@ -122,15 +107,15 @@ footer .container {
 	text-align: left;
 }
 
-.rodape {
+footer {
 	color: #eeeeee;
 	background-color: #383838;
 	max-width: 960px;
 	margin: auto;
+	display: flex;
 	line-height: 35px;
 	width: 100%;
 	padding-left: 15px;
 	padding-right: 15px;
 	text-align: left;
-
 }
