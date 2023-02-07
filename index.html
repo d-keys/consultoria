@@ -3,10 +3,9 @@
 
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=50%,initial-scale=0.5,maximum-scale=1,user-scalable=Yes"/>
-<meta name="HandheldFriendly" content="true" />
+<meta data-hid="mobile-web-app-capable" name="mobile-web-app-capable" content="true"/>
+<meta name="HandheldFriendly" content="true"/>
 <meta http-equiv="X-UA-Compatible" />
-<title id="logo">Consultoria</title>
 <link rel="stylesheet" href="assets/css/style.css"/>
 <link rel="stylesheet"
 	href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
@@ -45,19 +44,22 @@ o Script 2 será executado antes do Script 1.
 </head>
 
 <body>
-
-	<a id="ret" button="" href="https://d-keys.github.io/index_pt.html">Retornar</a>
-	<a id="ret" button="" href="https://d-keys.github.io/index.html">Return</a>
-
+	
+	<div class="link-retornar">
+		<a id="ret" button="" href="https://d-keys.github.io/index_pt.html">Retornar</a>
+	</div>
+	<div class="link-return">
+		<a id="ret" button="" href="https://d-keys.github.io/index.html">Return</a>
+	</div>
+	
 	<header>
-		<div id="logo" class="animacao2">Consultoria</div>
+		<div id="logo" class="animacao-logo">Consultoria</div>
 
-		<form id="registro" class="animacao" method="post" name="registrar"
-			action="registrar()" action="">
-			<p style="font-size: 25px; font-weight: bold;">Cadastre-se:</p>
-			<input id="nome" class="campo" type="text" name="nome" minlength="4" maxlength="35" placeholder="Digite seu Nome..." required/>
-			<input id="email" class="campo" type="email" name="email" minlength="10" maxlength="30" placeholder="Digite seu Email..." required/>
-			<input id="tel" class="campo" type="tel" name="tel" minlength="9" maxlength="14" placeholder="Digite seu Telefone..." required/>
+		<form id="registro" class="animacao-formulario" name="registrar" action="registrar()" action="">
+			<p style="text-align: left; font-size: 25px; font-weight: bold; padding-bottom: 30px;">Cadastre-se:</p>
+			<input id="nome" class="campo" type="text" name="nome" minlength="4" maxlength="25" placeholder="Seu Nome Aqui" required/>
+			<input id="email" class="campo" type="email" name="email" minlength="10" maxlength="25" placeholder="seuemail@aqui.com" required/>
+			<input id="tel" class="campo" type="tel" name="tel" minlength="9" maxlength="14" placeholder="+55 21 98877 6655" required/>
 			<div class="button">
 				<button type="submit">Registrar</button>
 			</div>
@@ -66,7 +68,7 @@ o Script 2 será executado antes do Script 1.
 
 	<section class="home">
 		<main class="corpo">
-			<h2>Simplicidade e Profissionalismo</h2>
+			<h2 style="padding-top: 30px;">Simplicidade e Profissionalismo</h2>
 			<p style="font-size: 25px; font-weight: bold;">Construindo
 				negócios e sonhos a partir de relacionamentos sinceros com clientes
 				desde 1990.</p>

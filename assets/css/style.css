@@ -1,14 +1,37 @@
 * {
 	box-sizing: border-box;
 	font-family: Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+	overflow-x: hidden;
+	position: relative;
+	display: block;
 }
 
-body {
-	margin: 0;
-	padding: 0;
-	background-color: #111111;
-	color: #eeeeee;
+.link-return {
+	border-color: #222222;
+	background-color: #eeeeee;
+	border-radius: 0px 5px 5px 5px;
+	top: 50%;
+	color: #333333;
+	padding: 3px 20px;
+	font-size:14px;
+	text-align: center;
+	display: inline-block;
 }
+.link-retornar {
+	border-color: #222222;
+	background-color: #eeeeee;
+	border-radius: 0px 5px 5px 5px;
+	top: 50%;
+	color: #333333;
+	padding: 3px 20px;
+	font-size: 14px;
+	text-align: center;
+	display: inline-block;
+}
+
 
 header {
 	min-height: 500px;
@@ -22,34 +45,36 @@ Link puro: https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb
 		url("https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;
-	position: relative;
+	background-position: left;
+}
+
+body {
+	background-color: #111111;
+	color: #eeeeee;
 }
 
 #logo {
 	color: #ffffff;
 	line-height: 70px;
 	text-align: left;
-	padding-left: 40px;
-	padding-top: 15px;
+	text-shadow: 0px 0px 10px #000000;
 	font-weight: bold;
-	text-shadow: 0px 0px 25px #000000;
 	font-size: 40px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
 }
 
 #registro {
+	text-align: right;
 	border-radius: 10px;
 	background-color: #000000af;
-	right: 10%;
-	left: initial;
-	top: 80px;
 	box-shadow: 0px 0px 25px #000000;
-	position: absolute;
+	padding-top: 30px;
 	padding-right: 30px;
 	padding-left: 30px;
 	padding-bottom: 30px;
-	width: 350px;
-	scroll-padding-right: 30px;
+	width: 325px;
 }
 
 /* ----------------------------------------------
@@ -59,33 +84,34 @@ Link puro: https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb
  * w: http://animista.net, t: @cssanimista
  * ---------------------------------------------- */
 /* Ferramenta incrível para se criar o código de animações, do básico ao avançado! Muito útil. */
-.animacao {
-	animation: animacao 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) forwards;
+.animacao-formulario {
+	animation: animacao-formulario 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) forwards;
 }
-@keyframes animacao {
+@keyframes animacao-formulario {
   0% {
     transform: translateX(500px);
   }
   100% {
-    transform: translateX(-40px);
+    transform: translateX(70px);
   }
 }
 
-.animacao2 {
-	animation: animacao2 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) forwards;
+.animacao-logo {
+	animation: animacao-logo 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) forwards;
 }
-@keyframes animacao2 {
+@keyframes animacao-logo {
   0% {
-    transform: translateX(-500px);
+    transform: translateX(-200px);
   }
   100% {
-    transform: translateX(20px);
+    transform: translateX(40px);
   }
 }
 
 #registro button {
 	width: 100%;
 	border: none;
+	border-radius: 5px;
 	background-color: #C17736;
 	color: #ffffff;
 	padding: 10px;
