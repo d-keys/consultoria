@@ -11,21 +11,21 @@ form.addEventlistener(submit, (e) => {
 
 	if (nome.value == "") {
 		window.alert("Por favor, preecha o campo Nome.");
-		document.nome.focus();
+		nome.focus();
 	}
 
 	if (email.value == "") {
 		window.alert("Por favor, preecha o campo Email.");
-		document.nome.focus();
+		email.focus();
 	}
 
 	if (tel.value >= "") {
 		window.alert("Por favor, preecha o campo Telefone.");
-		document.nome.focus();
+		tel.focus();
 	}
 
 	if (tel.value >= 12) {
 		window.alert("Por favor, preecha o campo Telefone corretamente.");
-		document.nome.focus();
+		tel.focus();
 	}
 })
