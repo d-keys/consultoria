@@ -48,19 +48,19 @@ Link puro: https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb
 }
 
 #registro {
-    border-radius: 10px;
-    background-color: #000000af;
-    right: 10%;
-    left: initial;
+	border-radius: 10px;
+	background-color: #000000af;
+	right: 10%;
+	left: initial;
 	top: 80px;
-    box-shadow: 0px 0px 25px #000000;
-    position: absolute;
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-bottom: 30px;
-    color: #ffffff;
-    width: 350px;
-    scroll-padding-right: 30px;
+	box-shadow: 0px 0px 25px #000000;
+	position: absolute;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	color: #ffffff;
+	width: 350px;
+	scroll-padding-right: 30px;
 }
 
 #registro backright {
@@ -89,6 +89,7 @@ Link puro: https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb
 input:valid {
 	box-shadow: 0 0 5px 1px darkgreen;
 }
+
 input:invalid {
 	box-shadow: 0 0 5px 1px darkred;
 }
@@ -97,7 +98,11 @@ placeholder {
 	color: white;
 }
 
+<<<<<<< HEAD
+.corpo {
+=======
 .container-feet1 {
+>>>>>>> refs/remotes/origin/main
 	color: #eeeeee;
 	max-width: 960px;
 	margin: auto;
@@ -118,4 +123,8 @@ footer {
 	padding-left: 15px;
 	padding-right: 15px;
 	text-align: left;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> refs/remotes/origin/main
